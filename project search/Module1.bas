@@ -105,7 +105,6 @@ Leavex:
                 LookAt:=xlWhole, SearchOrder:=xlByRows, SearchDirection:=xlNext, _
                 MatchCase:=True, SearchFormat:=False).Activate
             
-          ''''''''''''''''''''' on error leave i wstawiæ nie znaleziono !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         Range("B1").Select
         
         Selection.AutoFilter
